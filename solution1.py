@@ -27,3 +27,17 @@ def count_down(n):
 #test case
 n=8
 count_down(n)
+
+
+#What could be a base case for this problem?
+
+#If n equals 0, stop the function.
+
+
+#Evans way
+
+def print_num(n):
+   print(n)
+   if n == 0:
+    return 
+   print_num(n-1)
