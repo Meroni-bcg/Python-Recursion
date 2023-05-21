@@ -9,3 +9,10 @@
 
 #If the numerical input, n, is less than or equal to 1, return the value of n.
 
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+    
